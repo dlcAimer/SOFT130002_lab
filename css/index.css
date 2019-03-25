@@ -1,0 +1,227 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #1b2838;
+    color: #acb2b8;
+    height: 100%;
+}
+
+header {
+    color: #b8b6b4;
+    height: 10%;
+    background-color: #171a21;
+    display: flex;
+    text-align: center;
+}
+
+nav {
+    height: 3.375em;
+    margin: auto 3em;
+}
+
+nav > ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: inline-block;
+}
+
+nav li {
+    padding: 0.1875em 1em;
+}
+
+a {
+    color: #b8b6b4;
+    text-decoration:none;
+}
+
+a:hover{
+    color: #87bff2;
+}
+
+nav li a {
+    color: #b8b6b4;
+}
+
+aside {
+    float:right;
+    margin: 1% 5%;
+    width: 30%;
+    background-color: #171a21;
+}
+
+aside a {
+    color: white;
+}
+
+aside img, aside ul {
+    padding: 0;
+    width: 100%;
+}
+
+aside > ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+aside li {
+    height: 1.5em;
+    display: block;
+    text-align: center;
+    padding: 0.2em 0;
+}
+
+.title {
+    color: #ebebeb;
+}
+
+.title {
+    margin: 1em 5%;
+    display: inline;
+    display: flex;
+    text-align: center;
+}
+
+.title img {
+    border: #b8b6b4 solid 2px;
+}
+
+.title div {
+    color: #ebebeb;
+    display: inline;
+    padding-left: 1em;
+    margin: auto 0;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.title span {
+    font-weight: normal;
+    font-size: small;
+}
+
+.title .symbol {
+    color: #b8b6b4;
+    font-size: large;
+}
+
+section {
+    margin: 0 5%;
+}
+
+h2 {
+    color: #ebebeb;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.description > p {
+    margin: 0;
+    width: 60%;
+    font-size: small;
+    background-color: #171a21;
+    padding: 0.7em;
+    color: #b8b6b4;
+    border-top: 1px solid rgba(85, 125, 171, 0.6)
+}
+
+.comment > p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.comment h5 {
+    margin: 0;
+    padding: 0;
+    color: #b8b6b4;
+    font-size: smaller;
+}
+
+hr {
+    width: 90%;
+    margin: 0 5%;
+    border-width:0;
+    height: 1px;
+    color:rgba(85, 125, 171, 0.6);
+    background-color:rgba(85, 125, 171, 0.6);
+}
+
+.messages > div {
+    margin: 1.5em 0;
+    color: #b8b6b4;
+    font-size: small;
+}
+
+.messages > div > ul {
+    display: inline-block;
+    padding-inline-start: 40px;
+}
+
+.messages > div li {
+    padding: 0.2em 0.6em;
+    background-color: rgba(85, 125, 171, 0.6);
+    border-radius: 3px;
+}
+
+h3 {
+    color: #ebebeb;
+    display: block;
+    font-size: 1.3em;
+    margin-block-start: 1.8em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h4 {
+    font-weight: normal;
+    color: #ebebeb;
+    margin: 0;
+}
+
+.messages small {
+    margin: 0;
+    padding: 0;
+    font-size: smaller;
+    color: #56707f;
+}
+
+.messageSheet {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.messageSheet li {
+    display: block;
+    margin: 1.5em 0;
+}
+
+.active {
+    color:#87bff2;
+}
