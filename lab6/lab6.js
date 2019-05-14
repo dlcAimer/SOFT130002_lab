@@ -49,7 +49,6 @@ function startMove(opTarget) {
     clearInterval(timer);
     let caption = delSpaceDom(document.getElementById("featured"))[1];
     timer = setInterval(function () {
-        console.log(alpha);
         if (alpha < opTarget) {
             speed = 0.1;
         } else if (alpha > opTarget) {
